@@ -39,3 +39,6 @@ function that takes any vector with points (expect to have field x, y and z)
          -- AddOneFace()
       -- CleanUp()
       -- ExtractExteriorPoints()
+
+## License
+  MIT License
