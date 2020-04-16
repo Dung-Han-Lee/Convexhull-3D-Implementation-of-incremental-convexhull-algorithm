@@ -9,7 +9,7 @@ iners only. The files are well documented, feel free to poke around.
 ## Build and Run
     catkin_make
     source devel/setup.bash
-    rosrun convexhull\_demo convex_node
+    rosrun convexhull_demo convex_node
 
 ## Example Usage
 Although in this example pcl pointcloud was used, the interface is a template  
