@@ -17,14 +17,14 @@ function that takes any vector with points (expect to have field x, y and z)
 
    func(pcl::PointCloud<pcl::PointXYZI>::Ptr PC, Point3D& p)   
    {  
-     Convexhull ch(PC->points);  
-     if(ch.Contains(p)) // surface point is consider outside  
-     {  
-       //do something  
-     }  
-     auto vertices = ch.GetVertices();   
-     auto faces = ch.GetFaces();  
-     ...  
+       Convexhull ch(PC->points);  
+       if(ch.Contains(p)) // surface point is consider outside  
+       {  
+         //do something  
+        }  
+        auto vertices = ch.GetVertices();   
+        auto faces = ch.GetFaces();  
+        ...  
    }  
 
 ## Who calls whom
