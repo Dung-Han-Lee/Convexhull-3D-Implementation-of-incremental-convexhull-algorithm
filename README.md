@@ -14,6 +14,7 @@ iners only. The files are well documented, feel free to poke around.
     rviz
 
 ## Build and Run (text output only)
+    cd /src
     g++ -std=c++11 convexhull.cpp plain_demo.cpp -o test.o && ./test.o
 
 ## Example Usage
