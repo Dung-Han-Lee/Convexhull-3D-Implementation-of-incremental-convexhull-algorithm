@@ -140,7 +140,7 @@ void Master::VizPoints(const std::vector<Point3D>& points,
 }
 
 int main(int argc, char** argv){
-  ros::init(argc, argv, "exploration_node");
+  ros::init(argc, argv, "convex_node");
   ros::NodeHandle nh;
   Master master(nh);
   master.Loop();
