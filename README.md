@@ -6,13 +6,16 @@ iners only. The files are well documented, feel free to poke around.
 
 [![Example video](https://media.giphy.com/media/hsV1GgRby1M4kDbAgm/giphy.gif)](https://youtu.be/DDgGc7_fEyU)
 
-## Build and Run
+## Build and Run (using RVIZ)
     catkin_make
     source devel/setup.bash
     roscore
     rosrun convexhull_demo convex_node
     rviz
-    
+
+## Build and Run (text output only)
+    g++ -std=c++11 convexhull.cpp plain_demo.cpp -o test.o && ./test.o
+
 ## Example Usage
 Although in this example pcl pointcloud was used, the interface is a template  
 function that takes any vector with points (expect to have field x, y and z)
