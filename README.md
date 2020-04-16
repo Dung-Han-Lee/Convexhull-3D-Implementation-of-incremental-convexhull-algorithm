@@ -9,8 +9,10 @@ iners only. The files are well documented, feel free to poke around.
 ## Build and Run
     catkin_make
     source devel/setup.bash
+    roscore
     rosrun convexhull_demo convex_node
-
+    rviz
+    
 ## Example Usage
 Although in this example pcl pointcloud was used, the interface is a template  
 function that takes any vector with points (expect to have field x, y and z)
