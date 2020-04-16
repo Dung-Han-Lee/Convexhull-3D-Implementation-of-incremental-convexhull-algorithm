@@ -4,7 +4,7 @@ book [Computational Geometry in C by O'Rourke](http://crtl-i.com/PDF/comp_c.pdf)
 not required to use this package. This code is implemented with C++11 STL conta-  
 iners only. The files are well documented, feel free to poke around.
 
-[!Example [video](https://media.giphy.com/media/hsV1GgRby1M4kDbAgm/giphy.gif)](https://youtu.be/DDgGc7_fEyU)
+[![Example video](https://media.giphy.com/media/hsV1GgRby1M4kDbAgm/giphy.gif)](https://youtu.be/DDgGc7_fEyU)
 
 ## Build and Run
     catkin_make
